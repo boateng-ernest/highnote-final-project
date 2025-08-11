@@ -46,3 +46,27 @@ footer{
     gap: 12px;
     align-items: center;
 }
+main,footer{
+    padding: 10px;
+}
+
+#section_7, #section_2, #section_1, #section_3{
+    display: flex;
+}
+
+button{
+        padding: 5px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#button_2{
+    color: black;
+    background-color: lightgreen;
+}
+
+#button_4, #button_5, #button_7, #button_8, #button_9{
+    color: white;
+    background-color: black;
+}
