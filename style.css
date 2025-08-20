@@ -49,10 +49,6 @@ main,footer{
     padding: 10px;
 }
 
-#section_7, #section_2, #section_1, #section_3{
-    display: flex;
-}
-
 button{
         padding: 5px;
     border: none;
@@ -83,6 +79,104 @@ button{
 }
 #button_1{
     background-color: transparent;
-    border: black;
+    border: 2px solid black;
     color: black;
+}
+.six_buttons{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+#section_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5rem;
+    margin-left: 5rem;
+}
+#section_3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+}
+
+#section_6{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+}
+
+
+#section_6a, #section_6b{
+    background-color: #F5F3EB;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#section_5{
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+
+#section_5{
+    background-color: black;
+    color: white;
+}
+#section_5_icons{
+    display: ;
+}
+.main_heading{
+    text-align: center;
+    font-size: 80px;
+}
+h1{
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+#lower_footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.section_7_cards{
+    grid-template-columns: repeat(3 , 1fr);
+    background-color: #F5F3EB;
+    padding: 25px;
+    border-radius: 30px;
+}
+#section_7{
+    margin: 5rem;
+}
+
+.section_7cards{
+    display: flex;
+    gap: 10rem;
+}
+
+.wrapper{
+    border: 
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+#section_5_icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+#section_4_list_items{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: -1px;
 }
